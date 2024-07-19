@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.scrolling-pictures img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#scroll-image::-webkit-scrollbar {
+  display: none;
+}

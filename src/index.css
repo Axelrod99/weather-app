@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,84 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@font-face {
+  font-family: 'Axiforma-medium';
+  src: url('./assets/font/Axiforma-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Axiform-regular';
+  src: url('./assets/font/Axiforma-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Axiform-thin';
+  src: url('./assets/font/Axiforma-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Axiform-light';
+  src: url('./assets/font/Axiforma-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Axiforma-bold';
+  src: url('./assets/font/Axiforma-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-black';
+  src: url('./assets/font/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: 'Lato-Italics';
+  src: url('./assets/font/Lato-ThinItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-semibold';
+  src: url('./assets/font/Montserrat-SemiBold.otf');
+}
+
+.Axiforma {
+  font-family: 'Axiform-regular';
+}
+
+.Axiforma-thin {
+  font-family: 'Axiform-thin';
+}
+
+.Axiforma-light {
+  font-family: 'Axiform-light';
+}
+
+.Montserrat {
+  font-family: 'Montserrat-black';
+}
+
+.Montserrat_semibold {
+  font-family: 'Montserrat-semibold';
+}
+
+.Axiforma-bold {
+  font-family: 'Axiforma-bold';
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1D4C41;
+  border-radius: 5px;
+
+}
+
+#scroll-image::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-image {
+-ms-overflow-style: none; 
+scrollbar-width: none;  
 }
